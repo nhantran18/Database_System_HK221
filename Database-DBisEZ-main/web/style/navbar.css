@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+:root {
+    --color: #9c3cd3;
+    --color-light:  #d9bce9;
+    --blue: #1CC6FC;
+    --dark-blue:#255FE6;
+    --border: 1px solid black;
+}
+.nav-cont{
+    width:100%;
+}
+.brand-logo{
+    height:100px;
+    border-radius: 25%;
+}
+.bg-custom{
+    border:var(--border);
+    background-color: var(--color);
+}
+.credit{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-cont div{
+    margin:10px 0px;
+}
+.btn-menu{
+    background-color:var(--color-light);
+    border:var(--border);
+}
+.menu-logo{
+    height:50px;
+}
+.offcanvas-menu{
+    background-color: var(--color-light);
+}
+.list-btn:hover{
+    background-color: var(--color);
+    color:white;
+}

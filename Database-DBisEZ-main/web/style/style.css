@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+:root {
+    --color: #9c3cd3;
+    --color-light:  #d9bce9;
+    --blue: #1CC6FC;
+    --dark-blue:#255FE6;
+    --border: 1px solid black;
+}
+.info{
+    margin: 10px auto;
+}
+.online{
+    background-color: var(--blue);
+}
+.real{
+    color:white;
+    background-color: var(--dark-blue);
+}
+.info-box{
+    padding:15px;
+    text-align: center;
+}
+.container{
+    margin:20px auto;
+}
+.btn-custom{
+    background-color: var(--color);
+    color:white;
+}
+p{
+    margin:0px;
+}
+.table-wrapper{
+    margin: 20px auto;
+}
+.data{
+    cursor:pointer;
+}
+.input-group{
+    margin:10px auto;
+}
+.form-control{
+    text-align: right;
+}
